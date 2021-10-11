@@ -5,9 +5,9 @@ const cross = document.querySelector(".close i");
 console.log(menu, icon);
 
 icon.addEventListener("click", function () {
-    menu.classList.add("active");
+    menu.classList.toggle("active");
 });
 
 cross.addEventListener("click", function () {
-    menu.classList.remove("active");
+    menu.classList.toggle("active");
 });
